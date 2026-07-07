@@ -32,7 +32,13 @@ export function saveEntries(entries: Entry[]): void {
 }
 
 export function createEntryId(): string {
-  return crypto.randomUUID();
+  // crypto.randomUUID only exists in a secure context (HTTPS or localhost), so
+  // it is missing when the app is opened on a phone over plain HTTP. Fall back
+  // to a good-enough unique id in that case.
+  if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
+    return crypto.randomUUID();
+  }
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
 }
 
 /** Trigger a download of the catalog as a JSON file. */
