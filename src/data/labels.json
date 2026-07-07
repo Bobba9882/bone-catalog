@@ -1,0 +1,26 @@
+{
+  "type": [
+    { "value": "skeleton", "nl": "Skelet", "prompt": "an animal skeleton, mounted bones" },
+    { "value": "taxidermy", "nl": "Taxidermie", "prompt": "a taxidermied stuffed animal" },
+    { "value": "model", "nl": "Model", "prompt": "a plastic anatomical model replica" }
+  ],
+  "part": [
+    { "value": "skull", "nl": "Schedel", "prompt": "an animal skull" },
+    { "value": "full skeleton", "nl": "Volledig skelet", "prompt": "a full animal skeleton" },
+    { "value": "bone", "nl": "Bot", "prompt": "a single animal bone" },
+    { "value": "egg", "nl": "Ei", "prompt": "a bird egg" },
+    { "value": "shell", "nl": "Schelp", "prompt": "a seashell or mollusc shell" },
+    { "value": "mammal", "nl": "Zoogdier", "prompt": "a mammal animal" },
+    { "value": "bird", "nl": "Vogel", "prompt": "a bird" },
+    { "value": "reptile", "nl": "Reptiel", "prompt": "a reptile" },
+    { "value": "amphibian", "nl": "Amfibie", "prompt": "an amphibian, frog or salamander" },
+    { "value": "fish", "nl": "Vis", "prompt": "a fish" },
+    { "value": "insect", "nl": "Insect", "prompt": "an insect" }
+  ],
+  "state": [
+    { "value": "pristine", "nl": "Perfect" },
+    { "value": "good", "nl": "Goed" },
+    { "value": "damaged", "nl": "Beschadigd" },
+    { "value": "broken", "nl": "Kapot" }
+  ]
+}

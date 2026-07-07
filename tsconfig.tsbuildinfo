@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/entrycard.tsx","./src/components/pillselect.tsx","./src/lib/classifier.ts","./src/lib/image.ts","./src/lib/labels.ts","./src/lib/storage.ts","./src/views/catalog.tsx","./src/views/entrydetail.tsx","./src/views/entryform.tsx","./src/views/scan.tsx"],"version":"5.9.3"}

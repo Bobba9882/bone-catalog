@@ -1,0 +1,17 @@
+{
+  "name": "Botten & Skeletten Catalogus",
+  "short_name": "Botten",
+  "description": "Fotografeer en catalogiseer skeletten, taxidermie en botten op school.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#1f2937",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

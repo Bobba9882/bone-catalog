@@ -1,0 +1,7 @@
+{
+  "model": "Xenova/clip-vit-large-patch14",
+  "dimensions": 768,
+  "species": 1854,
+  "type": 3,
+  "part": 11
+}
